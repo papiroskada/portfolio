@@ -35,3 +35,11 @@ body {
   font-size: 20px;
   margin-top: 30px;
 }
+.content {
+  margin: 46px;
+}
+.content img {
+  margin: 0px;
+  max-width: 27%;
+  width: 500px;
+}
