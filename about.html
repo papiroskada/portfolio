@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta
-      name="description"
-      content="This is a page with portfolio by Dasha Sidenko"
-    />
+    <meta name="description" content="This is a page about Dasha Sidenko" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio:Dasha Sidenko</title>
+    <title>About:Dasha Sidenko</title>
     <link rel="stylesheet" href="src/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -32,5 +29,60 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body></body>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg"
+      style="background-color: var(--secondary-color)"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">DS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+            <i class="fa-solid fa-bars"></i
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="hero row">
+      <span class="col-md-6 about-heading">
+        <p class="text-start">Hi, I am</p>
+        <h1 class="text-start">Dasha Sidenko</h1>
+      </span>
+      <img
+        src="images/my_photo.jpg"
+        alt="My photo"
+        class="col-md-6"
+      />
+    </div>
+    <div class="about-me">
+      <h2>I am front-end developer, based in Ukraine</h2>
+      <p class="mx-auto">
+        I tried to write my first code three years ago. Since that time, I have
+        sought to become an expert in this area.I don’t have any job experience
+        yet because I’m a high school graduate, but I`ve begun a programming
+        course at Ucode IT Academy. During the first stage of my studying, I
+        wrote more than 500 lines in Python and created the Hangmen on the
+        console.<br />
+        In addition to this, I`ve taken Go IT Academy courses and created a
+        website with my CV, using HTML and CSS. I can use operational systems
+        like Android, Windows, and macOS.
+      </p>
+      <a class="contact-btn">Contact me</a>
+    </div>
+  </body>
 </html>
