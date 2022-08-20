@@ -85,3 +85,20 @@ body {
   color: var(--secondary-color);
   font-weight: bold;
 }
+.nav-link {
+  color: #d9d4d1 !important;
+  font-family: var(--default-font-family) !important;
+  font-size: 18px !important;
+}
+.navbar-brand {
+  font-family: var(--heading-font-family) !important;
+  color: var(--branding-color) !important;
+  font-size: 30px !important;
+}
+.container-fluid {
+  padding-left: 40px !important;
+}
+.navbar-toggler-icon {
+  color: var(--branding-color) !important;
+  background-image: none !important;
+}
