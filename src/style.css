@@ -39,6 +39,22 @@ font-family: 'Poppins', sans-serif; */
     font-size: 24px !important;
     font-family: var(--heading-font-family);
   }
+  .my-photo {
+    display: none;
+  }
+  .heading-about {
+    margin: 0 !important;
+  }
+  .about-info p {
+    font-size: 14px !important;
+    line-height: 22px !important;
+    letter-spacing: 0 !important;
+    max-width: 90% !important;
+  }
+  .about-info h3 {
+    font-size: 20px !important;
+    margin: 0 10px;
+  }
 }
 body {
   font-family: var(--default-font-family);
@@ -70,8 +86,8 @@ body {
   margin-top: 30px;
 }
 .hero img {
-  width: 300px;
-  height: 300px;
+  max-width: 30%;
+  height: auto;
   vertical-align: middle;
 }
 .content {
@@ -116,39 +132,25 @@ body {
   border-radius: 12px;
   border: 1px solid var(--secondary-color);
 }
-.about-heading {
-  padding: 100px 0;
+.heading-about {
+  margin: 100px 50px;
 }
-.about-me {
-  color: var(--secondary-color);
-  text-align: center;
+.about-info {
+  margin: 40px 0;
 }
-.about-me h2 {
+.about-info h3 {
   font-family: var(--heading-font-family);
   font-weight: 700;
-  font-size: 36px;
-  margin: 80px 0 30px;
+  font-size: 32px;
+  line-height: 36px;
+  padding: 10px 0 40px;
 }
-.about-me p {
+.about-info p {
   font-family: var(--default-font-family);
-  max-width: 50%;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 22px;
   line-height: 42px;
   letter-spacing: 0.02em;
-}
-.contact-btn {
-  background: var(--secondary-color);
-  border-radius: 10px;
-  color: var(--branding-color);
-  padding: 10px 35px;
-  font-size: 20px;
-  text-decoration: none;
-}
-.contact-btn:hover {
-  background: var(--branding-color);
-  border-radius: 10px;
-  color: var(--secondary-color);
-  padding: 10px 35px;
-  font-size: 20px;
-  text-decoration: none;
+  max-width: 50%;
+  margin: 0 auto;
 }
