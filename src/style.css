@@ -154,3 +154,7 @@ body {
   max-width: 50%;
   margin: 0 auto;
 }
+.btn:hover {
+  background-color: #ffcccc !important;
+  color: var(--secondary-color);
+}
