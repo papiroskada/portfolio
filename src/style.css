@@ -55,6 +55,10 @@ font-family: 'Poppins', sans-serif; */
     font-size: 20px !important;
     margin: 0 10px;
   }
+  .projects img {
+    width: 300px !important;
+    height: auto;
+  }
 }
 body {
   font-family: var(--default-font-family);
@@ -70,6 +74,7 @@ body {
   font-weight: bold !important;
   font-size: 64px;
   margin: 1px;
+  color: var(--secondary-color);
 }
 .hero p,
 .hero h2 {
@@ -157,4 +162,10 @@ body {
 .btn:hover {
   background-color: #ffcccc !important;
   color: var(--secondary-color);
+}
+.projects img {
+  width: 600px;
+  margin: 40px;
+  height: auto;
+  box-shadow: 4px 4px 6px -3px #0e3150;
 }
