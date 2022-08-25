@@ -152,6 +152,7 @@ body {
 }
 .about-info {
   margin: 40px 0;
+  text-align: center;
 }
 .about-info h3 {
   font-family: var(--heading-font-family);
